@@ -1,6 +1,6 @@
-###Code Book
+#Code Book
 ##Raw Data Collection
-#About the Data
+###About the Data
 Raw data has been collected from the UCI Machine Learning Repository. This database is built from recordings of 
 30 subjects performing activities of daily living while carrying a waist-mounted smartphone with embedded inertial 
 sensors. The experiments to collect this data have been carried out with a group of 30 volunteers within an age 
@@ -11,7 +11,7 @@ angular velocity at a constant rate of 50Hz. The experiments have been video-rec
 The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for 
 generating the training data and 30% the test data. 
 
-#Features
+###Features
 There are different features that were examined in this experiment, below is a list of the features
 -Body Acceleration
 -Gravity Acceleration
@@ -24,7 +24,7 @@ There are different features that were examined in this experiment, below is a l
 -Body Angular Speed Magnitude
 -Body Angular Acceleration Magnitude
 
-#Measured Variables 
+###Measured Variables 
 For each feature, certain measurements were taken. You can find a list of these measured variables below:
 -mean(): Mean value
 -std(): Standard deviation
@@ -45,7 +45,7 @@ For each feature, certain measurements were taken. You can find a list of these 
 -angle(): Angle between some vectors.
 
 ##Data Transformation
-#Files provided
+###Files provided
 - 'README.txt'
 - 'features_info.txt': Shows information about the variables used on the feature vector.
 - 'features.txt': List of all features.
@@ -55,16 +55,16 @@ For each feature, certain measurements were taken. You can find a list of these 
 - 'X_test.txt/y_test.txt': Test set.
 - 'subject_test.txt': Test labels.
 
-#Transformation Steps
+###Transformation Steps
 1. I took each file (except of the readme.txt) and read it into R
 2. I merged the test and training data (both x and y) into a dataframe
 3. I added column labels to a dataframe called MergedData
 4. I subsetted the dataframe to extract only columns with the mean and standard deviation of each feature. This dataframe is called MergedData2
 5. I went back to the MergedData dataframe and changed each activity ID with it's respected Activity Name. A list of the activities can be found below.
-*WALKING 
-*WALKING_UPSTAIRS 
-*WALKING_DOWNSTAIRS 
-*SITTING 
-*STANDING, LAYING
+-WALKING 
+-WALKING_UPSTAIRS 
+-WALKING_DOWNSTAIRS 
+-SITTING 
+-STANDING, LAYING
 6. I then found the unique combinations for subject and activity ID so that I could find the mean of each column in MergedData. This new subset of MergedData is named TidyData
 
