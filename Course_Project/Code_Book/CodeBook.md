@@ -13,36 +13,36 @@ generating the training data and 30% the test data.
 
 ###Features
 There are different features that were examined in this experiment, below is a list of the features
--Body Acceleration
--Gravity Acceleration
--Body Acceleration Jerk
--Body Angular Speed
--Body Angular Acceleration
--Body Acceleration Magnitude
--Gravity Acceleration Magnitude
--Body Acceleration Jerk Magnitude
--Body Angular Speed Magnitude
--Body Angular Acceleration Magnitude
+- Body Acceleration
+- Gravity Acceleration
+- Body Acceleration Jerk
+- Body Angular Speed
+- Body Angular Acceleration
+- Body Acceleration Magnitude
+- Gravity Acceleration Magnitude
+- Body Acceleration Jerk Magnitude
+- Body Angular Speed Magnitude
+- Body Angular Acceleration Magnitude
 
 ###Measured Variables 
 For each feature, certain measurements were taken. You can find a list of these measured variables below:
--mean(): Mean value
--std(): Standard deviation
--mad(): Median absolute deviation
--max(): Largest value in array
--min(): Smallest value in array
--sma(): Signal magnitude area
--energy(): Energy measure. Sum of the squares divided by the number of values.
--iqr(): Interquartile range
--entropy(): Signal entropy
--arCoeff(): Autoregression coefficients with Burg order equal to 4
--correlation(): Correlation coefficient between two signals
--maxInds(): Index of the frequency component with largest magnitude
--meanFreq(): Weighted average of the frequency components to obtain a mean frequency
--skewness(): Skewness of the frequency domain signal
--kurtosis(): Kurtosis of the frequency domain signal
--bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
--angle(): Angle between some vectors.
+- mean(): Mean value
+- std(): Standard deviation
+- mad(): Median absolute deviation
+- max(): Largest value in array
+- min(): Smallest value in array
+- sma(): Signal magnitude area
+- energy(): Energy measure. Sum of the squares divided by the number of values.
+- iqr(): Interquartile range
+- entropy(): Signal entropy
+- arCoeff(): Autoregression coefficients with Burg order equal to 4
+- correlation(): Correlation coefficient between two signals
+- maxInds(): Index of the frequency component with largest magnitude
+- meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+- skewness(): Skewness of the frequency domain signal
+- kurtosis(): Kurtosis of the frequency domain signal
+- bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
+- angle(): Angle between some vectors.
 
 ##Data Transformation
 ###Files provided
