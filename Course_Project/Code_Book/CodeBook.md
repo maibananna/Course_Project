@@ -61,10 +61,10 @@ For each feature, certain measurements were taken. You can find a list of these 
 3. I added column labels to a dataframe called MergedData
 4. I subsetted the dataframe to extract only columns with the mean and standard deviation of each feature. This dataframe is called MergedData2
 5. I went back to the MergedData dataframe and changed each activity ID with it's respected Activity Name. A list of the activities can be found below.
-- WALKING 
-- WALKING_UPSTAIRS 
-- WALKING_DOWNSTAIRS 
-- SITTING 
-- STANDING, LAYING
+	- WALKING 
+	- WALKING_UPSTAIRS 
+	- WALKING_DOWNSTAIRS 
+	- SITTING 
+	- STANDING, LAYING
 6. I then found the unique combinations for subject and activity ID so that I could find the mean of each column in MergedData. This new subset of MergedData is named TidyData
 
